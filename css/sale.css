@@ -1,0 +1,409 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 165px;
+    padding: 0px;
+    background-color: white;
+    position: relative;
+    box-shadow: 3px 0px 5px gray;
+}
+
+nav{
+    width: 100%;
+    min-height: 500px;
+    margin: 0px auto;
+}
+
+article{
+    width: 100%;
+    min-height: 1700px;
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+    background-color:rgb(39, 35, 35);
+}
+
+/* Phần header chia làm 2 phần */
+.tren{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgb(219, 213, 213);
+}
+
+.tren>.trai{
+    text-decoration: none;
+    float: left;
+    margin-left: 125px;
+    line-height: 45px;
+    font-size:medium;
+    color: black;
+    text-align:justify;
+}
+
+.tren>.phai{
+    text-decoration: none;
+    float: right;
+    margin-right: 125px;
+    line-height: 45px;
+    font-size: medium;
+    color: black;
+    text-align: justify;
+}
+
+.tren>a:hover{
+    color: rgb(248, 101, 101);
+}
+
+.duoi{
+    width: 100%;
+    height: 120px;
+}
+
+.anh-nhom{
+    width: 15%;
+    margin-left: 65px;
+    margin-top: 10px;
+    float: left;
+}
+
+.anh-nhom>a>img{
+    width: 227px;
+    height: 100px;
+}
+
+.chucnang{
+    width: 55%;
+    height: 50px;
+    float: left;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.chucnang>li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.chucnang>li>a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    text-align: justify;
+    line-height: 50px;
+}
+
+.red>a>b{
+    color: red;
+}
+
+.chucnang>li>a:hover{
+    color: rgb(248, 101, 101);
+}
+
+.red>a>b:hover{
+    color: rgb(248, 101, 101);
+}
+
+.cn-con1{
+    width: 100px;
+    min-height: 50px;
+    position: absolute;
+    top: 125px;
+    left: 325px;
+    list-style: none;
+    box-shadow: 0px 0px 3px gray;
+    background-color: white;
+    display: none;
+}
+
+.cn-con1>li{
+    text-align: justify;
+}
+
+.cn-con1>li>a{
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+}
+
+.cn-con2{
+    width: 180px;
+    min-height: 50px;
+    position: absolute;
+    left: 740px;
+    top: 125px;
+    list-style: none;
+    box-shadow: 0px 0px 3px gray;
+    background-color: white;
+    display: none;
+}
+
+.cn-con2>li{
+    text-align: justify;
+}
+
+.cn-con2>li>a{
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+}
+
+.cn-con1>li>a:hover{
+    color: rgb(248, 101, 101);
+}
+
+.cn-con2>li>a:hover{
+    color: rgb(248, 101, 101);
+}
+
+.chucnang>li:hover .cn-con1{
+    display: block;
+}
+
+.chucnang>li:hover .cn-con2{
+    display: block;
+}
+
+.timkiem{
+    width: 20%;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.timkiem>li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.timkiem>li>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.timkiem>li>form{
+    position: absolute;
+    top: 45px;
+    right: 140px;
+    display: none;
+}
+
+.timkiem>li>form>input{
+    border-radius: 10px;
+    border: 3px solid rgb(33, 33, 46);
+}
+
+.timkiem>li:hover>form{
+    display: block;
+}
+
+/*  Phần nav */
+nav>img{
+    width: 100%;
+}
+
+/*  Phần article*/
+.sp-moi{
+    width: 80%;
+    min-height: 800px;
+    margin: 0px auto;
+}
+
+.sp{
+    width: 23%;
+    min-height: 300px;
+    margin: 10px 12px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+.sp>div{
+    margin-top: 18px;
+}
+
+.sp>div>img{
+    width: 95%;
+    margin: 0px auto;
+}
+
+.sp>b{
+    color: black;
+    text-align: justify;
+}
+
+.red{
+    color: red;
+}
+
+.sp:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+.sp>b:hover{
+    color: rgb(248, 101, 101);
+}
+
+.sp:hover>div>img{
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+.noibat{
+    width: 80%;
+    min-height: 430px;
+    margin: 60px auto 0px auto;
+}
+
+.tdsp-noibat{
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 60, 70);
+}
+
+.tdsp-noibat>p{
+    color: black;
+}
+
+.sp-noibat{
+    width: 23%;
+    min-height: 300px;
+    margin: 10px 12px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+.sp-noibat>div{
+    margin-top: 18px;
+}
+
+.sp-noibat>div>img{
+    width: 95%;
+    margin: 0px auto;
+}
+
+.sp-noibat>b{
+    color: black;
+    text-align: justify;
+}
+
+.red{
+    color: red;
+}
+
+.sp-noibat:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+.sp-noibat>b:hover{
+    color: rgb(248, 101, 101);
+}
+
+.sp-noibat:hover>div>img{
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+/*  Phần footer */
+.email{
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
+
+.email>h1{
+    margin-top: 50px;
+    color: white;
+}
+
+.email>div{
+    color: rgb(153, 149, 149);
+}
+
+.email>input{
+    width: 700px;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px white;
+    border: 1px solid rgb(39, 35, 35);
+}
+
+.end{
+    width: 80%;
+    min-height: 280px;
+    margin: 0px auto;
+}
+
+.end>li{
+    float: left;
+    margin: 30px 95px;
+    list-style: none;
+    color: white;
+}
+
+.end>li>ul{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.end>li>ul>li{
+    line-height: 30px;
+    color: rgb(194, 190, 190);
+    list-style: none;
+    position: relative;
+    left: 0px;
+}
+
+.end>li>ul>li>a:hover{
+    color: rgb(248, 101, 101);
+}
+
+.end>li>ul>li>a{
+    text-decoration: none;
+    color: rgb(194, 190, 190);
+}
+
+.ttlh{
+    position: absolute;
+    left: 230px;
+}
+
+.dv{
+    position: absolute;
+    left: 572px;
+}
+
+.ht{
+    position: absolute;
+    left: 827px;
+}
+
+.cs{
+    position: absolute;
+    left: 1080px;
+}
+
+.end2{
+    width: 100%;
+    border-top: 1px solid rgb(61, 61, 61);
+    text-align: center;
+}
+
+.end2>p{
+    color: rgb(194, 190, 190);
+}
